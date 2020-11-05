@@ -38,6 +38,8 @@
     "@storybook/addon-links": "^6.0.28",
     "@storybook/addons": "^6.0.28",
     "@storybook/react": "^6.0.28",
+    "@types/react-redux": "^7.1.11",
+    "@types/redux": "^3.6.0",
     "@types/styled-components": "^5.1.4",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
@@ -82,8 +84,8 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "eslint",
-      "pretty-quick — staged",
-      "git add"
-    ]
+      "pretty-quick — staged"
+    ],
+    "*.js": "eslint --cache --fix"
   }
 }
