@@ -1,8 +1,15 @@
 import * as React from 'react';
-import * as Styled from './App.styled';
+import { Route, Switch } from 'react-router';
+import Auth from 'pages/Auth';
+import Main from 'pages/Main';
 
 const App: React.FC = () => {
-  return <Styled.HeadingH1>Chat app</Styled.HeadingH1>;
+  return (
+    <Switch>
+      <Route path={['/login', '/register']} component={Auth} />
+      <Route path="/" exact render={Main} />
+    </Switch>
+  );
 };
 
 export default App;
