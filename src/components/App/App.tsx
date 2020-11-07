@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <Switch>
       <Route path={['/login', '/register']} component={Auth} />
-      <Route path="/" exact render={Main} />
+      <Route path="/" exact component={Main} />
     </Switch>
   );
 };

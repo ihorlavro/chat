@@ -42,10 +42,11 @@
     "linebreak-style": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "arrow-parens": "off",
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto"
+        "endOfLine": "lf"
       }
     ]
   }

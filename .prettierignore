@@ -1,0 +1,5 @@
+# Ignore artifacts:
+build
+
+# Ignore all styled.tsx files:
+*.styled.tsx

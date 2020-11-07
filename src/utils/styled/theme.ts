@@ -1,6 +1,7 @@
 const theme = {
-  fonts: {
-    main: 'sans-serif',
+  colors: {
+    success: '#6FC041',
+    error: '#F44336',
   },
 };
 
